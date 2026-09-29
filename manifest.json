@@ -1,0 +1,127 @@
+{
+  "format_version": 1,
+  "answer_sha256": "fb293d0ca73313fffcf0f4b5710c86bddf48021703e9dbeec7379a55a6df8c7f",
+  "answer_rows": 2452,
+  "candidates_per_query": {
+    "50": 2452
+  },
+  "files": {
+    ".gitignore": {
+      "bytes": 418,
+      "sha256": "db929aaf8576fcfec26ff361d549dff166fc236d1a711c78d16b1269b6c996b4"
+    },
+    "README.md": {
+      "bytes": 13768,
+      "sha256": "73c6fa28f6371e1fa4422a14ed1ac76fdcb8179ce708484ef5b0ef6bdad4a98d"
+    },
+    "PROGRESS.md": {
+      "bytes": 4168,
+      "sha256": "06fedb6ce80446b23e1dd7f58c8df2fe7c7dae9fba24c4a1ab11fd97db05fe54"
+    },
+    "requirements.txt": {
+      "bytes": 460,
+      "sha256": "2b3ddd971b6dcb93aed9026ff426f5c0b20c2fcea8dff43bb5d8cdc3c0132193"
+    },
+    "answer.csv": {
+      "bytes": 2125900,
+      "sha256": "fb293d0ca73313fffcf0f4b5710c86bddf48021703e9dbeec7379a55a6df8c7f"
+    },
+    "retrieval.py": {
+      "bytes": 12608,
+      "sha256": "fe41ffdfb7a8842845835e16a405f4329da2f36a13c54e2c399b4ac9ac50928b"
+    },
+    "solution.py": {
+      "bytes": 21593,
+      "sha256": "a1bd0e5b7c021e5a65f044dbd8f8d34d03055780906f299daec46a0205d6ef0c"
+    },
+    "ranker_experiment.py": {
+      "bytes": 7365,
+      "sha256": "a3d00375080c0be58057c92c806ca70ffede2d1a875fc9cf6298345a377220ac"
+    },
+    "improved_predict.py": {
+      "bytes": 8629,
+      "sha256": "e13085bd2c7c0a077d4db7684c91648ece300ac6c8277b9deea56dd034582ab3"
+    },
+    "prototype_experiment.py": {
+      "bytes": 8518,
+      "sha256": "3f2b599c91e0d7f6eaa0a0391d23b917ffacdb8466305aace95d7b59e9f7cf65"
+    },
+    "prototype_predict.py": {
+      "bytes": 9032,
+      "sha256": "a3ec9e7b62ffe116a7ba4b082200e55ca69cf7c85c007afbb193b6fd28685bd0"
+    },
+    "package_solution.py": {
+      "bytes": 7089,
+      "sha256": "a7a568164fcf9a2fc11d44ec2ad49c2ca2e0ec93d7ef16c552cb7f9fface9d68"
+    },
+    "models/catboost_v5.cbm": {
+      "bytes": 956936,
+      "sha256": "9c84d1595b5adb01439a53a1ac66257d8b1bdb669f2faf5ce47c9c058633a0a9"
+    },
+    "models/catboost_v6.cbm": {
+      "bytes": 977184,
+      "sha256": "a1a4ed23d4e40efea5c39f0af688c62d076bb4c6290e754da9671de5ff44468d"
+    },
+    "models/catboost_v9.cbm": {
+      "bytes": 977584,
+      "sha256": "b0a5b068094b2bc8983f083efafe5bd88d09fcc9ad39c6065459fa9046187476"
+    },
+    "models/catboost_v10.cbm": {
+      "bytes": 971512,
+      "sha256": "a4b9183cfc70ca42baa729718849485bdf5e478f83fb1b1933b8d29db23d7414"
+    },
+    "models/lambdarank.txt": {
+      "bytes": 1249431,
+      "sha256": "6c07144a813132dc70d1ef2887730bdeb00bf6edcd9260c933490115b178c1c7"
+    },
+    "reports/blend_stability.json": {
+      "bytes": 963,
+      "sha256": "e1bd0cf3c99798d78acec0e9b6a6f65098232b767227dfff9732886eb6919420"
+    },
+    "reports/category_popularity.json": {
+      "bytes": 1162,
+      "sha256": "01967f3c92606a34a5b739769808644e534d79bd6459a849b16494aac2ff6cde"
+    },
+    "reports/char_title.json": {
+      "bytes": 1238,
+      "sha256": "0c8789c8ee2cc614d40400b610f3417f66dedcab55f0f84e332c4e3d695e6e2c"
+    },
+    "reports/lexical_quota.json": {
+      "bytes": 13870,
+      "sha256": "51041c90d57c4bf965486a536ac17162c85e1add69eba1ac936e4431c3e84c70"
+    },
+    "reports/original_generation.json": {
+      "bytes": 394,
+      "sha256": "eb487baa5aa8b391b6a6a1f1ed80d10d81274364b29a42b41a48cd84892a535e"
+    },
+    "reports/rare_text.json": {
+      "bytes": 1519,
+      "sha256": "86cddd6413bbad01b3cfddedbd60a1e8e50397be7f95c890bd5c836aa52f0a8a"
+    },
+    "reports/rare_title.json": {
+      "bytes": 1486,
+      "sha256": "0201791dd74bfc01f2ade3e36111ceb5b87974fa77489226ff85767ed268f7d6"
+    },
+    "reports/reproduction.json": {
+      "bytes": 1891,
+      "sha256": "3cde719000deafb2dda8dc79b1ff444505a0aab553bf481fd99254fd54c022d3"
+    },
+    "reports/rrf.json": {
+      "bytes": 2597,
+      "sha256": "8546375ac2fde50b906a723b093da43cbbb0ce076dbdd2b1778ed4fce9e95c0c"
+    },
+    "reports/semantic.json": {
+      "bytes": 2795,
+      "sha256": "e85ed0fecef517e94e7b218af72254fe95d341894cdf0a6b64c1cd65384402e8"
+    },
+    "reports/validation_v10.json": {
+      "bytes": 1076,
+      "sha256": "effe493fe1564f962113ca1b875582f08a73dfadc4ce0802fc4428f9a19bd601"
+    },
+    "reports/validation_v9.json": {
+      "bytes": 1167,
+      "sha256": "2a9a934372c16a469863eb06af30d4553599b53beecf3a2647c32445c0d6dada"
+    }
+  },
+  "note": "Parquet data are supplied separately; no external inference API is used."
+}

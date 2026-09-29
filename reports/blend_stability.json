@@ -1,0 +1,42 @@
+{
+  "artifacts_v10": {
+    "best_min_gain": {
+      "mean_delta": 0.0015215852795470632,
+      "bootstrap_95_interval": [
+        -0.0066171266808209474,
+        0.01019108280254777
+      ],
+      "queries_better": 11,
+      "queries_worse": 9
+    },
+    "best_v10_gain": {
+      "mean_delta": 0.0032908704883227178,
+      "bootstrap_95_interval": [
+        -0.0020169851380042463,
+        0.00870488322717622
+      ],
+      "queries_better": 6,
+      "queries_worse": 2
+    }
+  },
+  "artifacts_v9": {
+    "best_min_gain": {
+      "mean_delta": 0.0010076210935502019,
+      "bootstrap_95_interval": [
+        -0.006691089969822514,
+        0.008741240857245152
+      ],
+      "queries_better": 10,
+      "queries_worse": 9
+    },
+    "best_v10_gain": {
+      "mean_delta": 0.0006137793463249959,
+      "bootstrap_95_interval": [
+        -0.0037593984962406013,
+        0.0053705692803437165
+      ],
+      "queries_better": 4,
+      "queries_worse": 2
+    }
+  }
+}

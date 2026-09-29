@@ -1,0 +1,16 @@
+{
+  "output": "answer_prototype.csv",
+  "limit_per_channel": 500,
+  "ranker_weight": 0.4,
+  "view_boost": 0.0,
+  "queries_with_changed_top50": 785,
+  "additional_candidates_scored": 811637,
+  "elapsed_seconds": 154.0,
+  "validation": {
+    "rows": 2452,
+    "candidates_per_query": {
+      "50": 2452
+    },
+    "sha256": "fb293d0ca73313fffcf0f4b5710c86bddf48021703e9dbeec7379a55a6df8c7f"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "verification_date": "2026-09-29",
+  "python": "3.11.16",
+  "pip_check": "passed",
+  "requirements_versions_match": true,
+  "best_confirmed_stepik_recall": 0.835023,
+  "remaining_stepik_attempts": 3,
+  "stepik_source": "Last successful submission recorded in the original chat; no new submissions.",
+  "validation": {
+    "rows": 2452,
+    "candidates_per_query": {
+      "50": 2452
+    },
+    "sha256": "fb293d0ca73313fffcf0f4b5710c86bddf48021703e9dbeec7379a55a6df8c7f"
+  },
+  "reproduced_answer_bytes_equal": true,
+  "reproduction_mode": "Existing benchmark index and candidate-score cache; prototype candidates rescored with the saved local models.",
+  "generation": {
+    "output": "answer_reproduced.csv",
+    "limit_per_channel": 500,
+    "ranker_weight": 0.4,
+    "view_boost": 0.0,
+    "queries_with_changed_top50": 785,
+    "additional_candidates_scored": 811637,
+    "elapsed_seconds": 152.4,
+    "validation": {
+      "rows": 2452,
+      "candidates_per_query": {
+        "50": 2452
+      },
+      "sha256": "fb293d0ca73313fffcf0f4b5710c86bddf48021703e9dbeec7379a55a6df8c7f"
+    }
+  },
+  "inputs": {
+    "train.parquet": {
+      "bytes": 490236125,
+      "sha256": "e150ab7a5c98769f643b95ee3a02dc0f664b647facd69a7d280ec6d48ca554a7"
+    },
+    "benchmark_queries.parquet": {
+      "bytes": 127374,
+      "sha256": "e49de4fb76f03979a4af96034817767d39ae5de9f94e254fed028243188dda06"
+    },
+    "benchmark_items.parquet": {
+      "bytes": 195679553,
+      "sha256": "193b3a3961464620cbf8d8797152b7f90cae1826ca749fb7817a210984a09899"
+    }
+  },
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "pyarrow": "25.0.1",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.1",
+    "catboost": "1.2.10",
+    "lightgbm": "4.6.0",
+    "nltk": "3.10.3",
+    "joblib": "1.6.0"
+  },
+  "previous_archive_sha256": "fc2a1376ada9e8d5273897e171cc3a9fd35dd211d5975a0c0d5982b45881177c"
+}

@@ -1,0 +1,14 @@
+# Локальные данные задания и большие промежуточные индексы не входят в GitHub-архив.
+dataset/
+artifacts_*/
+.venv/
+__pycache__/
+dist/
+*.pyc
+
+# В репозитории нужен только проверенный answer.csv.
+answer_*.csv
+answer_*.metrics.json
+
+# Служебные файлы macOS не относятся к решению.
+.DS_Store
